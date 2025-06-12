@@ -3,14 +3,15 @@ from sort_utils import ordenar_numeros
 from average_utils import calcular_promedio
 
 def menu():
+	print("Bienvenido al menú\nSeleccione su opción a continuación")
 	while True:
 		menu = input("""
-	1. Generar número aleatorio
-	2. Ordenar 5 números
-	3. Calcular promedio de 5 números
-	4. Salir del programa
+1. Generar número aleatorio
+2. Ordenar 5 números
+3. Calcular promedio de 5 números
+4. Salir del programa
 
-	Opción:""")
+Opción:""")
 		match menu:
 			case "1":
 				generar_numero_aleatorio()
