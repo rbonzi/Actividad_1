@@ -1,6 +1,6 @@
 from random_utils import generar_numero_aleatorio
 from sort_utils import ordenar_numeros
-from average_numbers import calcular_promedio
+from average_utils import calcular_promedio
 
 def menu():
 	while True:
